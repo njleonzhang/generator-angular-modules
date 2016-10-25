@@ -1,0 +1,55 @@
+{
+  "name": "generator-angular-modules",
+  "version": "0.0.1",
+  "description": "A generator for publish angular modules, including directive and service",
+  "homepage": "https://github.com/njleonzhang/generator-angular-modules",
+  "author": {
+    "name": "njleonzhang",
+    "email": "zpczjl@126.com",
+    "url": "https://github.com/njleonzhang"
+  },
+  "files": [
+    "generators/app",
+    "generators/service"
+  ],
+  "main": "generators/app/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "angular-modules",
+    "gulp"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.0",
+    "glob": "^7.0.3",
+    "path": "^0.12.7",
+    "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.13.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "njleonzhang/generator-angular-modules",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0"
+}
