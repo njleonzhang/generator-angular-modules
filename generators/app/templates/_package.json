@@ -27,6 +27,6 @@
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
     "build": "gulp",
-    "register": "bower register <%= name %> <%= gitAddress %>"
+    "register": "bower register <%= className %> <%= gitAddress %>"
   }
 }
