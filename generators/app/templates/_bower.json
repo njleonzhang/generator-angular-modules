@@ -1,5 +1,5 @@
 {
-  "name": "<%= name %>",
+  "name": "<%= className %>",
   "author": "<%= userName %> <<%= userEmail %>>",
   "main": "dist/<%= name %>.bundle.min.js"
 }
