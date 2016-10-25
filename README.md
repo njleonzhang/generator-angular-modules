@@ -21,8 +21,13 @@ factory: `yo angular-modules:factory`
 
 ## Usage of the generated project.
 
-### Release package
-run command `gulp`
+### Build package
+
+`npm run build`
+
+### Publish to bower
+
+`npm run register`
 
 ## Getting To Know Yeoman
 

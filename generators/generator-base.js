@@ -73,6 +73,12 @@ module.exports = yeoman.Base.extend({
         name: 'userEmail',
         message: 'Author email? (for config files)',
         default: this.user.git.email || 'email@example.com'
+      },
+      {
+        type: 'input',
+        name: 'gitAddress',
+        message: 'git address for bower register',
+        default: 'https://github.com/***/**.git'
       }
     ]
 
