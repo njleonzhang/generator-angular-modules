@@ -5,7 +5,7 @@
  * # <%= name %>
  * Factory in the <%= moduleName %>.
  */
-angular.module('<%= moduleName %>')
+angular.module('<%= moduleName %>', [])
   .factory('<%= name %>', () => {
     // Service logic
     // ...
