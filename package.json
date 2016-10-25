@@ -1,6 +1,6 @@
 {
   "name": "generator-angular-modules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A generator for publish angular modules, including directive and service",
   "homepage": "https://github.com/njleonzhang/generator-angular-modules",
   "author": {
