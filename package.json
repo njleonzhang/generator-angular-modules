@@ -1,6 +1,6 @@
 {
   "name": "generator-angular-modules",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A generator for publish angular modules, including directive and service",
   "homepage": "https://github.com/njleonzhang/generator-angular-modules",
   "author": {
@@ -10,9 +10,10 @@
   },
   "files": [
     "generators/app",
-    "generators/service"
+    "generators/service",
+    "generators/factory",
+    "generators/generator-base.js"
   ],
-  "main": "generators/app/index.js",
   "keywords": [
     "yeoman-generator",
     "angular-modules",
